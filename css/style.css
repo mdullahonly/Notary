@@ -1,0 +1,227 @@
+/*header start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	/*border: 1px solid red;*/
+}
+.container{
+	width: 75%;
+	/*border: 1px solid green;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 18%;
+	/*border: 1px solid red;*/
+	float: left;
+	padding: 3px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 80%;
+	/*border: 1px solid green;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	  text-decoration: none;
+    color: #535D69;
+    padding: 0 10px;
+    font-size: 12px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+.menu ul li:last-chaild a{
+	padding-right: 0;
+}
+.menu ul li a span{
+	color: #BD233F;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-image:url(../image/notary.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-position:top;
+
+}
+.b-content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 50%;
+	/*border: 1px solid red;*/
+}
+.b-content h1{
+	font-family: sans-serif;
+	font-size: 38px;
+	color: white;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 20px;
+
+}
+.b-content p{
+	  font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    
+}
+.b-content button{
+	width: 200px;
+	height: 30px;
+	background-color: #C1203F;
+	font-family: sans-serif;
+	font-size: 11px;
+	color: white;
+	border: none;
+}
+
+/*banner end*/
+
+/*work section start*/
+.work{
+	/*border: 1px solid red;*/
+	background-color: #FAFAFA;
+}
+.w-content{
+	text-align: center;
+}
+.w-content h1{
+	  font-family: sans-serif;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 40px;
+}
+.w-content p{
+	    font-size: 16px;
+	    font-family: sans-serif;
+	    line-height: 25px;
+    	margin-bottom: 30px;
+}
+
+/*work section end*/
+
+/*image section start*/
+.img{
+	/*border: 1px solid green;+*/
+	background-color: #FAFAFA;
+}
+.i-content{
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.i-single{
+	width: 33%;
+	/*border: 1px solid green;*/
+	float: left;
+}
+
+.i-imag img{
+		width: 100%;
+    margin-top: 30px;
+   
+}
+.i-single h6{
+		font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+/*image section end*/
+
+/*video section start*/
+
+.video{
+	/*border: 1px solid red;*/
+	background-color: #FAFAFA;
+}
+.v-content{
+	overflow: hidden;
+	
+}
+.v-left{
+	/*border: 1px solid green;*/
+	width: 50%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	float: left;
+
+}
+.v-content h1{
+	font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    margin-right: 18px;
+}
+.v-content p{
+	  font-family: sans-serif;
+    font-size: 12px;
+    color: black;
+    margin-right: 18px;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+.v-left button{
+		background-color: red;
+    width: 28%;
+    height: 29%;
+    font-size: 11px;
+    color: white;
+    border: none;
+}
+
+.v-right{
+	float: right;
+}
+.v-right iframe{
+	  padding-top: 130px;
+    padding-bottom: 100px;
+    border: none;
+    margin-left: 18px;
+}
+
+/*video section end*/
+/* Features section start*/
+.features{}
+.f-content{
+	text-align: center;
+}
+.f-content h1{
+		font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 40px;
+}
+.f-content p{
+	  font-size: 15px;
+    font-family: sans-serif;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/*features Section Start*/
